@@ -18,6 +18,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "matrix-validations": [
+        "projects/matrix-validations/src/public-api.ts"
+      ],
+      "matrix-validations/*": [
+        "dist/matrix-validations/*"
+      ]
+    }
   }
 }
